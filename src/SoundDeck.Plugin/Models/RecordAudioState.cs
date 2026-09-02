@@ -6,7 +6,7 @@ namespace SoundDeck.Plugin.Models
     public static class RecordAudioState
     {
         /// <summary>
-        /// Defines the state at which the recording should stop.
+        /// Defines the state at which recording can be started.
         /// </summary>
         public const int START = 0;
 

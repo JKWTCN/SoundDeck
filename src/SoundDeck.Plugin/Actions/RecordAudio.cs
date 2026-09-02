@@ -35,21 +35,14 @@ namespace SoundDeck.Plugin.Actions
         }
 
         /// <summary>
-        /// Gets or sets a value indicating whether this instance is initialized.
-        /// </summary>
-        private bool IsInitialized { get; set; }
-
-        /// <summary>
         /// Occurs when an instance of an action appears.
         /// </summary>
         /// <param name="args">The <see cref="T:SharpDeck.Events.Received.ActionEventArgs`1" /> instance containing the event data.</param>
         protected override async Task OnWillAppear(ActionEventArgs<AppearancePayload> args)
         {
-            if (!this.IsInitialized)
-            {
-                this.IsInitialized = true;
-                await this.SetStateAsync(0);
-            }
+            await this.SetStateAsync(this.CaptureDevice?.IsRecording == true
+                ? RecordAudioState.STOP
+                : RecordAudioState.START);
         }
 
         /// <summary>
@@ -75,16 +68,24 @@ namespace SoundDeck.Plugin.Actions
             {
                 await this._syncRoot.WaitAsync();
 
-                switch (args.Payload.State)
+                if (this.CaptureDevice == null)
                 {
-                    case RecordAudioState.START:
-                        this.CaptureDevice.Settings = args.Payload.GetSettings<RecordAudioSettings>();
-                        await this.CaptureDevice.StartAsync();
-                        break;
+                    throw new InvalidOperationException($"Unable to record audio for {args.Context}; the capture device is null.");
+                }
 
-                    case RecordAudioState.STOP:
-                        await this.CaptureDevice.StopAsync();
-                        break;
+                // StreamDock does not reliably advance multi-state actions before
+                // the next keyDown event. Use the recorder's actual state as the
+                // source of truth and explicitly update the displayed key state.
+                if (this.CaptureDevice.IsRecording)
+                {
+                    await this.CaptureDevice.StopAsync();
+                    await this.SetStateAsync(RecordAudioState.START);
+                }
+                else
+                {
+                    this.CaptureDevice.Settings = args.Payload.GetSettings<RecordAudioSettings>();
+                    await this.CaptureDevice.StartAsync();
+                    await this.SetStateAsync(RecordAudioState.STOP);
                 }
             }
             catch (Exception ex)

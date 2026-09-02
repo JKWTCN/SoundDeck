@@ -8,6 +8,11 @@ namespace SoundDeck.Core.Capture
     public interface IAudioRecorder : ICaptureDevice
     {
         /// <summary>
+        /// Gets a value indicating whether the audio recorder is active.
+        /// </summary>
+        bool IsRecording { get; }
+
+        /// <summary>
         /// Gets or sets the settings.
         /// </summary>
         ISaveAudioSettings Settings { get; set; }

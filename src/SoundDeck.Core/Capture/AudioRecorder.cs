@@ -60,7 +60,7 @@ namespace SoundDeck.Core.Capture
         /// <summary>
         /// Gets a value indicating whether the audio recorder is active.
         /// </summary>
-        private bool IsRecording { get; set; }
+        public bool IsRecording { get; private set; }
 
         /// <summary>
         /// Gets the logger.
