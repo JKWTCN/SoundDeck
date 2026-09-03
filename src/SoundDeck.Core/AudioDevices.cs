@@ -4,6 +4,7 @@ namespace SoundDeck.Core
     using System.Collections;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Runtime.InteropServices;
     using NAudio.CoreAudioApi;
     using NAudio.CoreAudioApi.Interfaces;
 
@@ -64,12 +65,24 @@ namespace SoundDeck.Core
 
             void AddDefault(string key, string friendlyName, DataFlow dataFlow, Role role)
             {
-                using (var defaultEndpoint = this.Enumerator.GetDefaultAudioEndpoint(dataFlow, role))
+                try
                 {
-                    var sharedMMDevice = this.Devices.FirstOrDefault(item => item.Device.ID == defaultEndpoint.ID);
-                    var defaultAudioDevice = new AudioDevice(sharedMMDevice.Device, friendlyName, isDynamic: true, key, role);
+                    using (var defaultEndpoint = this.Enumerator.GetDefaultAudioEndpoint(dataFlow, role))
+                    {
+                        var sharedMMDevice = this.Devices.FirstOrDefault(item => item.Device.ID == defaultEndpoint.ID);
+                        if (sharedMMDevice == null)
+                        {
+                            return;
+                        }
 
-                    this.Devices.Insert(0, defaultAudioDevice);
+                        var defaultAudioDevice = new AudioDevice(sharedMMDevice.Device, friendlyName, isDynamic: true, key, role);
+                        this.Devices.Insert(0, defaultAudioDevice);
+                    }
+                }
+                catch (COMException ex) when (ex.HResult == unchecked((int)0x80070490))
+                {
+                    // Windows returns ERROR_NOT_FOUND when this role has no default endpoint.
+                    // Other available devices and defaults should still remain usable.
                 }
             }
         }
