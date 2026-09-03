@@ -1,5 +1,18 @@
 # Change Log
 
+## v3.10.2
+
+### ⭐ Added
+
+- Added Simplified Chinese, Traditional Chinese, English, Japanese, French, Spanish, Korean, German, Italian, Portuguese, Russian, and Greek translations.
+- Added automatic localization for Property Inspector labels, options, placeholders, and dynamically rendered content.
+- Included the GNU General Public License v3 license and corresponding source information in packaged plugin distributions.
+
+### 🐞 Fixed
+
+- Fixed Property Inspector localization for React-rendered and colon-suffixed labels.
+- Fixed audio device enumeration when a Windows audio role has no default endpoint.
+
 ## Beta (v3.10.0)
 
 ### ⭐ Added

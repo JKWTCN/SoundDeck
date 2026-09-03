@@ -49,6 +49,12 @@
     </ItemGroup>
 
     <ItemGroup>
+        <None Include="..\..\LICENSE.md" Link="LICENSE.md">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="..\..\SOURCE.md" Link="SOURCE.md">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
         <None Update="appsettings.json">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>

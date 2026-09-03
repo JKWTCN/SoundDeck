@@ -10,7 +10,7 @@
     "CodePath": "SoundDeck.exe",
     "Icon": "Images/SoundDeck/Icon",
     "PropertyInspectorPath": "PI/index.html",
-    "URL": "https://github.com/GeekyEggo/SoundDeck",
+    "URL": "https://github.com/JKWTCN/SoundDeck",
     "Actions": [
         {
             "Name": "App Media Controls",
