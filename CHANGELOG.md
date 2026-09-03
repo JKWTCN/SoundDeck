@@ -12,6 +12,7 @@
 
 - Fixed Property Inspector localization for React-rendered and colon-suffixed labels.
 - Fixed audio device enumeration when a Windows audio role has no default endpoint.
+- Fixed Knob actions failing to initialize and leaving app or audio device lists loading indefinitely.
 
 ## Beta (v3.10.0)
 

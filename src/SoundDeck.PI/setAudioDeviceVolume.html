@@ -5,7 +5,8 @@
         <script>
             function connectElgatoStreamDeckSocket(inPort, inPropertyInspectorUUID, inRegisterEvent, inInfo, inActionInfo) {
                 const actionInfo = JSON.parse(inActionInfo);
-                if (actionInfo?.payload?.controller === 'Encoder') {
+                const controller = actionInfo?.payload?.controller;
+                if (controller === 'Encoder' || controller === 'Knob') {
                     // Show the "Step" range for dials.
                     document.querySelector('[data-field="step"]').style.display = '';
                 } else {

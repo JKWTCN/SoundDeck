@@ -82,7 +82,7 @@ namespace SoundDeck.Plugin.Actions
         protected override async Task OnWillAppear(ActionEventArgs<AppearancePayload> args)
         {
             await base.OnWillAppear(args);
-            this.IsEncoder = args.Payload.Controller is Controller.Encoder;
+            this.IsEncoder = args.Payload.Controller is Controller.Encoder or Controller.Knob;
         }
 
         /// <summary>
