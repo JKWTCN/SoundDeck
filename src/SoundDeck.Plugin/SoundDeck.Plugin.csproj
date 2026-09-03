@@ -55,6 +55,9 @@
         <None Update="manifest.json">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
+        <None Update="en.json;zh_CN.json;zh_HK.json;ja.json;fr.json;es.json;ko.json;de.json;it.json;pt.json;ru.json;el.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
         <None Update="Images\**\*.*">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>

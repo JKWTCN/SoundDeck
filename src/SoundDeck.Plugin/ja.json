@@ -1,0 +1,26 @@
+{
+  "Description": "音声のキャプチャ、録音、再生、サンプリングを行える高機能なオーディオプラグインです。既定のオーディオデバイスや音量の変更、アプリのメディア再生の操作にも対応します。",
+  "Name": "Sound Deck",
+  "Category": "Sound Deck",
+  "com.geekyeggo.sounddeck.appmultimediacontrols": { "Name": "アプリのメディア操作", "Tooltip": "指定したアプリのメディア再生を操作します。" },
+  "com.geekyeggo.sounddeck.setappaudiodevice": { "Name": "アプリのオーディオデバイスを設定", "Tooltip": "アプリの既定のオーディオデバイスを設定します。" },
+  "com.geekyeggo.sounddeck.setappvolume": { "Name": "アプリの音量を設定", "Tooltip": "アプリの音量を設定します。" },
+  "com.geekyeggo.sounddeck.setdefaultaudiodevice": { "Name": "既定のオーディオデバイスを設定", "Tooltip": "既定のオーディオデバイスを設定します。" },
+  "com.geekyeggo.sounddeck.setaudiodevicevolume": { "Name": "オーディオデバイスの音量を設定", "Tooltip": "オーディオデバイスの音量を設定します。" },
+  "com.geekyeggo.sounddeck.sampler": { "Name": "サンプラー", "Tooltip": "音声サンプルを録音して再生します。" },
+  "com.geekyeggo.sounddeck.clearsample": { "Name": "サンプラーを消去", "Tooltip": "サンプラーの消去を有効にします。" },
+  "com.geekyeggo.sounddeck.clipaudio": { "Name": "音声をクリップ", "Tooltip": "直前の大切な数秒間を保存し、楽しい瞬間を逃しません。" },
+  "com.geekyeggo.sounddeck.recordaudio": { "Name": "音声を録音", "Tooltip": "音声を録音します。" },
+  "com.geekyeggo.sounddeck.playaudio": { "Name": "音声を再生", "Tooltip": "1つ以上の音声クリップを指定した順序で再生します。" },
+  "com.geekyeggo.sounddeck.stopaudio": { "Name": "音声を停止", "Tooltip": "Sound Deck で再生中のすべての音声を停止します。" },
+  "Localization": {
+    "App": "アプリ", "Name": "名前", "Action": "アクション", "Display": "表示",
+    "Audio Device": "オーディオデバイス", "Capture Device": "キャプチャデバイス", "Playback Device": "再生デバイス",
+    "Duration": "長さ", "Output Path": "出力先", "Encoding": "エンコード", "Volume": "音量", "Normalize": "ノーマライズ",
+    "Loading...":"読み込み中...","Default":"既定","Foreground (Active)":"フォアグラウンド（アクティブ）","By Name":"名前で指定","Mute / Unmute":"ミュート切り替え","Mute":"ミュート","Unmute":"ミュート解除","Set":"設定","Increase By":"増加","Decrease By":"減少","Value":"値","Step":"ステップ",
+    "Play / Pause":"再生/一時停止","Play":"再生","Pause":"一時停止","Stop":"停止","Skip Previous":"前へ","Skip Next":"次へ","Artwork (When Available)":"アートワーク（利用可能時）",
+    "5 seconds":"5 秒","10 seconds":"10 秒","15 seconds":"15 秒","20 seconds":"20 秒","25 seconds":"25 秒","30 seconds":"30 秒","45 seconds":"45 秒","60 seconds":"60 秒","90 seconds":"90 秒","120 seconds":"120 秒",
+    "Encode to MP3":"MP3 にエンコード","Normalize Volume":"音量をノーマライズ","Communication":"通信","Role":"役割","Process":"プロセス","Play / Next":"再生/次へ","Play / Stop":"再生/停止","Play All / Stop":"すべて再生/停止","Play / Overlap":"再生/重ねて再生","Loop / Stop":"ループ/停止","Loop All / Stop":"すべてループ/停止","Loop All / Stop (Reset)":"すべてループ/停止（リセット）",
+    "Sequential":"順番","Random":"ランダム","Order":"順序","Files":"ファイル","Add files...":"ファイルを追加...","Choose File...":"ファイルを選択...","Options":"オプション","Remove":"削除","Apps":"アプリ","Playback":"再生","Recording":"録音"
+  }
+}

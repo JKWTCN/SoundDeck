@@ -1,0 +1,71 @@
+{
+  "Description": "一款强大的音频插件，可用于捕获、录制、播放和采样音频。Sound Deck 还提供控制音频设备和应用程序音频的操作，例如设置默认音频设备、调整音量或控制应用程序的媒体播放。",
+  "Name": "Sound Deck",
+  "Category": "Sound Deck",
+  "com.geekyeggo.sounddeck.appmultimediacontrols": {
+    "Name": "应用媒体控制",
+    "Tooltip": "控制指定应用程序的媒体播放。"
+  },
+  "com.geekyeggo.sounddeck.setappaudiodevice": {
+    "Name": "设置应用音频设备",
+    "Tooltip": "设置应用程序的默认音频设备。"
+  },
+  "com.geekyeggo.sounddeck.setappvolume": {
+    "Name": "设置应用音量",
+    "Tooltip": "设置应用程序的音量。"
+  },
+  "com.geekyeggo.sounddeck.setdefaultaudiodevice": {
+    "Name": "设置默认音频设备",
+    "Tooltip": "设置默认音频设备。"
+  },
+  "com.geekyeggo.sounddeck.setaudiodevicevolume": {
+    "Name": "设置音频设备音量",
+    "Tooltip": "设置音频设备的音量。"
+  },
+  "com.geekyeggo.sounddeck.sampler": {
+    "Name": "采样器",
+    "Tooltip": "录制并播放音频采样！"
+  },
+  "com.geekyeggo.sounddeck.clearsample": {
+    "Name": "清除采样器",
+    "Tooltip": "启用采样器清除功能。"
+  },
+  "com.geekyeggo.sounddeck.clipaudio": {
+    "Name": "截取音频",
+    "Tooltip": "保存刚刚过去的宝贵音频片段，不再错过任何精彩时刻。"
+  },
+  "com.geekyeggo.sounddeck.recordaudio": {
+    "Name": "录制音频",
+    "Tooltip": "录制音频。"
+  },
+  "com.geekyeggo.sounddeck.playaudio": {
+    "Name": "播放音频",
+    "Tooltip": "按照所选顺序播放一个或多个音频片段。"
+  },
+  "com.geekyeggo.sounddeck.stopaudio": {
+    "Name": "停止音频",
+    "Tooltip": "停止 Sound Deck 正在播放的所有音频。"
+  },
+  "Localization": {
+    "App": "应用程序",
+    "Name": "名称",
+    "Action": "操作",
+    "Display": "显示",
+    "Audio Device": "音频设备",
+    "Capture Device": "捕获设备",
+    "Playback Device": "播放设备",
+    "Duration": "时长",
+    "Output Path": "输出路径",
+    "Encoding": "编码",
+    "Volume": "音量",
+    "Normalize": "标准化",
+    "Loading...": "正在加载...", "Default": "默认", "Foreground (Active)": "前台（活动）", "By Name": "按名称",
+    "Mute / Unmute": "静音/取消静音", "Mute": "静音", "Unmute": "取消静音", "Set": "设置", "Increase By": "增加", "Decrease By": "减少", "Value": "数值", "Step": "步长",
+    "Play / Pause": "播放/暂停", "Play": "播放", "Pause": "暂停", "Stop": "停止", "Skip Previous": "上一曲", "Skip Next": "下一曲", "Artwork (When Available)": "封面（可用时）",
+    "5 seconds": "5 秒", "10 seconds": "10 秒", "15 seconds": "15 秒", "20 seconds": "20 秒", "25 seconds": "25 秒", "30 seconds": "30 秒", "45 seconds": "45 秒", "60 seconds": "60 秒", "90 seconds": "90 秒", "120 seconds": "120 秒",
+    "Encode to MP3": "编码为 MP3", "Normalize Volume": "音量标准化", "Communication": "通信", "Role": "角色", "Process": "进程",
+    "Play / Next": "播放/下一段", "Play / Stop": "播放/停止", "Play All / Stop": "全部播放/停止", "Play / Overlap": "播放/重叠", "Loop / Stop": "循环/停止", "Loop All / Stop": "全部循环/停止", "Loop All / Stop (Reset)": "全部循环/停止（重置）",
+    "Sequential": "顺序", "Random": "随机", "Order": "顺序", "Files": "文件", "Add files...": "添加文件...", "Choose File...": "选择文件...", "Options": "选项", "Remove": "移除",
+    "Apps": "应用程序", "Playback": "播放", "Recording": "录制"
+  }
+}

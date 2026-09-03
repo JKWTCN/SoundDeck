@@ -1,0 +1,23 @@
+{
+  "Description": "Ένα ισχυρό πρόσθετο ήχου για καταγραφή, εγγραφή, αναπαραγωγή και δειγματοληψία ήχου. Το Sound Deck επιτρέπει επίσης τον έλεγχο συσκευών ήχου και του ήχου εφαρμογών, όπως της προεπιλεγμένης συσκευής, της έντασης και της αναπαραγωγής πολυμέσων.",
+  "Name": "Sound Deck",
+  "Category": "Sound Deck",
+  "com.geekyeggo.sounddeck.appmultimediacontrols": { "Name": "Στοιχεία ελέγχου πολυμέσων εφαρμογής", "Tooltip": "Ελέγχει την αναπαραγωγή πολυμέσων μιας συγκεκριμένης εφαρμογής." },
+  "com.geekyeggo.sounddeck.setappaudiodevice": { "Name": "Ορισμός συσκευής ήχου εφαρμογής", "Tooltip": "Ορίζει την προεπιλεγμένη συσκευή ήχου μιας εφαρμογής." },
+  "com.geekyeggo.sounddeck.setappvolume": { "Name": "Ορισμός έντασης εφαρμογής", "Tooltip": "Ορίζει την ένταση ήχου μιας εφαρμογής." },
+  "com.geekyeggo.sounddeck.setdefaultaudiodevice": { "Name": "Ορισμός προεπιλεγμένης συσκευής ήχου", "Tooltip": "Ορίζει την προεπιλεγμένη συσκευή ήχου." },
+  "com.geekyeggo.sounddeck.setaudiodevicevolume": { "Name": "Ορισμός έντασης συσκευής ήχου", "Tooltip": "Ορίζει την ένταση μιας συσκευής ήχου." },
+  "com.geekyeggo.sounddeck.sampler": { "Name": "Δειγματολήπτης", "Tooltip": "Εγγραφή και αναπαραγωγή δειγμάτων ήχου!" },
+  "com.geekyeggo.sounddeck.clearsample": { "Name": "Εκκαθάριση δειγματολήπτη", "Tooltip": "Ενεργοποιεί την εκκαθάριση του δειγματολήπτη." },
+  "com.geekyeggo.sounddeck.clipaudio": { "Name": "Καταγραφή πρόσφατου ήχου", "Tooltip": "Αποθηκεύει τα τελευταία πολύτιμα δευτερόλεπτα ήχου, ώστε να μη χάσετε ξανά μια αστεία στιγμή." },
+  "com.geekyeggo.sounddeck.recordaudio": { "Name": "Εγγραφή ήχου", "Tooltip": "Εγγράφει ήχο." },
+  "com.geekyeggo.sounddeck.playaudio": { "Name": "Αναπαραγωγή ήχου", "Tooltip": "Αναπαράγει ένα ή περισσότερα κλιπ ήχου με τη σειρά που επιλέγετε." },
+  "com.geekyeggo.sounddeck.stopaudio": { "Name": "Διακοπή ήχου", "Tooltip": "Διακόπτει όλο τον ήχο που αναπαράγεται μέσω του Sound Deck." },
+  "Localization": {
+    "App": "Εφαρμογή", "Name": "Όνομα", "Action": "Ενέργεια", "Display": "Εμφάνιση",
+    "Audio Device": "Συσκευή ήχου", "Capture Device": "Συσκευή καταγραφής", "Playback Device": "Συσκευή αναπαραγωγής",
+    "Duration":"Διάρκεια","Output Path":"Διαδρομή εξόδου","Encoding":"Κωδικοποίηση","Volume":"Ένταση","Normalize":"Κανονικοποίηση","Loading...":"Φόρτωση...","Default":"Προεπιλογή","Foreground (Active)":"Προσκήνιο (ενεργό)","By Name":"Κατά όνομα","Mute / Unmute":"Σίγαση/κατάργηση σίγασης","Mute":"Σίγαση","Unmute":"Κατάργηση σίγασης","Set":"Ορισμός","Increase By":"Αύξηση κατά","Decrease By":"Μείωση κατά","Value":"Τιμή","Step":"Βήμα",
+    "Play / Pause":"Αναπαραγωγή/παύση","Play":"Αναπαραγωγή","Pause":"Παύση","Stop":"Διακοπή","Skip Previous":"Προηγούμενο κομμάτι","Skip Next":"Επόμενο κομμάτι","Artwork (When Available)":"Εξώφυλλο (όταν είναι διαθέσιμο)","5 seconds":"5 δευτερόλεπτα","10 seconds":"10 δευτερόλεπτα","15 seconds":"15 δευτερόλεπτα","20 seconds":"20 δευτερόλεπτα","25 seconds":"25 δευτερόλεπτα","30 seconds":"30 δευτερόλεπτα","45 seconds":"45 δευτερόλεπτα","60 seconds":"60 δευτερόλεπτα","90 seconds":"90 δευτερόλεπτα","120 seconds":"120 δευτερόλεπτα",
+    "Encode to MP3":"Κωδικοποίηση σε MP3","Normalize Volume":"Κανονικοποίηση έντασης","Communication":"Επικοινωνία","Role":"Ρόλος","Process":"Διεργασία","Play / Next":"Αναπαραγωγή/επόμενο","Play / Stop":"Αναπαραγωγή/διακοπή","Play All / Stop":"Αναπαραγωγή όλων/διακοπή","Play / Overlap":"Αναπαραγωγή/επικάλυψη","Loop / Stop":"Επανάληψη/διακοπή","Loop All / Stop":"Επανάληψη όλων/διακοπή","Loop All / Stop (Reset)":"Επανάληψη όλων/διακοπή (επαναφορά)","Sequential":"Διαδοχικά","Random":"Τυχαία","Order":"Σειρά","Files":"Αρχεία","Add files...":"Προσθήκη αρχείων...","Choose File...":"Επιλογή αρχείου...","Options":"Επιλογές","Remove":"Αφαίρεση","Apps":"Εφαρμογές","Playback":"Αναπαραγωγή","Recording":"Εγγραφή"
+  }
+}

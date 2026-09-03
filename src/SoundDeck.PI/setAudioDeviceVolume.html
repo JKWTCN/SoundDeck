@@ -7,24 +7,25 @@
                 const actionInfo = JSON.parse(inActionInfo);
                 if (actionInfo?.payload?.controller === 'Encoder') {
                     // Show the "Step" range for dials.
-                    document.querySelector('sdpi-item[label="Step"]').style.display = '';
+                    document.querySelector('[data-field="step"]').style.display = '';
                 } else {
                     // Show the "Action" and "Value" for buttons.
-                    document.querySelector('sdpi-item[label="Action"]').style.display = '';
+                    document.querySelector('[data-field="action"]').style.display = '';
                     document.querySelector('sdpi-select[setting="volumeAction"]').addEventListener('valuechange', ev => {
-                        document.querySelector('sdpi-item[label="Value"]').style.display = ev.srcElement.value > 2 ? '' : 'none';
+                        document.querySelector('[data-field="value"]').style.display = ev.srcElement.value > 2 ? '' : 'none';
                     });
                 }
             }
         </script>
         <script src="./js/sdpi-components.js"></script>
+        <script src="./js/localization.js"></script>
     </head>
     <body>
         <sdpi-item label="Audio Device">
             <sdpi-select setting="audioDeviceId" datasource="getAudioDevices" loading="Loading..." placeholder="Default"></sdpi-select>
         </sdpi-item>
 
-        <sdpi-item label="Action" style="display: none">
+        <sdpi-item label="Action" data-field="action" style="display: none">
             <sdpi-select setting="volumeAction" placeholder="Mute / Unmute" value-type="Number">
                 <option value="0">Mute / Unmute</option>
                 <option value="1">Mute</option>
@@ -35,11 +36,11 @@
             </sdpi-select>
         </sdpi-item>
 
-        <sdpi-item label="Value" style="display: none">
+        <sdpi-item label="Value" data-field="value" style="display: none">
             <sdpi-range setting="volumeValue" min="0" max="100" step="5" showlabels></sdpi-range>
         </sdpi-item>
 
-        <sdpi-item label="Step" style="display: none">
+        <sdpi-item label="Step" data-field="step" style="display: none">
             <sdpi-range setting="volumeValue" min="0" max="25" step="1" default="5" showlabels></sdpi-range>
         </sdpi-item>
     </body>

@@ -1,0 +1,23 @@
+{
+  "Description": "Мощный аудиоплагин для захвата, записи, воспроизведения и сэмплирования звука. Sound Deck также позволяет управлять аудиоустройствами и звуком приложений, включая устройство по умолчанию, громкость и воспроизведение мультимедиа.",
+  "Name": "Sound Deck",
+  "Category": "Sound Deck",
+  "com.geekyeggo.sounddeck.appmultimediacontrols": { "Name": "Управление мультимедиа приложения", "Tooltip": "Управление воспроизведением мультимедиа в выбранном приложении." },
+  "com.geekyeggo.sounddeck.setappaudiodevice": { "Name": "Задать аудиоустройство приложения", "Tooltip": "Задать аудиоустройство по умолчанию для приложения." },
+  "com.geekyeggo.sounddeck.setappvolume": { "Name": "Задать громкость приложения", "Tooltip": "Задать громкость приложения." },
+  "com.geekyeggo.sounddeck.setdefaultaudiodevice": { "Name": "Задать аудиоустройство по умолчанию", "Tooltip": "Задать аудиоустройство по умолчанию." },
+  "com.geekyeggo.sounddeck.setaudiodevicevolume": { "Name": "Задать громкость аудиоустройства", "Tooltip": "Задать громкость аудиоустройства." },
+  "com.geekyeggo.sounddeck.sampler": { "Name": "Сэмплер", "Tooltip": "Записывайте и воспроизводите аудиосэмплы!" },
+  "com.geekyeggo.sounddeck.clearsample": { "Name": "Очистить сэмплер", "Tooltip": "Включить очистку сэмплера." },
+  "com.geekyeggo.sounddeck.clipaudio": { "Name": "Сохранить недавнее аудио", "Tooltip": "Сохранить последние важные секунды звука, чтобы больше не упускать забавные моменты." },
+  "com.geekyeggo.sounddeck.recordaudio": { "Name": "Записать аудио", "Tooltip": "Записать аудио." },
+  "com.geekyeggo.sounddeck.playaudio": { "Name": "Воспроизвести аудио", "Tooltip": "Воспроизвести один или несколько аудиоклипов в выбранном порядке." },
+  "com.geekyeggo.sounddeck.stopaudio": { "Name": "Остановить аудио", "Tooltip": "Остановить всё аудио, воспроизводимое через Sound Deck." },
+  "Localization": {
+    "App": "Приложение", "Name": "Имя", "Action": "Действие", "Display": "Отображение",
+    "Audio Device": "Аудиоустройство", "Capture Device": "Устройство записи", "Playback Device": "Устройство воспроизведения",
+    "Duration":"Длительность","Output Path":"Путь сохранения","Encoding":"Кодирование","Volume":"Громкость","Normalize":"Нормализовать","Loading...":"Загрузка...","Default":"По умолчанию","Foreground (Active)":"Активное окно","By Name":"По имени","Mute / Unmute":"Включить/выключить звук","Mute":"Выключить звук","Unmute":"Включить звук","Set":"Задать","Increase By":"Увеличить на","Decrease By":"Уменьшить на","Value":"Значение","Step":"Шаг",
+    "Play / Pause":"Воспроизведение/пауза","Play":"Воспроизвести","Pause":"Пауза","Stop":"Остановить","Skip Previous":"Предыдущая дорожка","Skip Next":"Следующая дорожка","Artwork (When Available)":"Обложка (если доступна)","5 seconds":"5 секунд","10 seconds":"10 секунд","15 seconds":"15 секунд","20 seconds":"20 секунд","25 seconds":"25 секунд","30 seconds":"30 секунд","45 seconds":"45 секунд","60 seconds":"60 секунд","90 seconds":"90 секунд","120 seconds":"120 секунд",
+    "Encode to MP3":"Кодировать в MP3","Normalize Volume":"Нормализовать громкость","Communication":"Связь","Role":"Роль","Process":"Процесс","Play / Next":"Воспроизвести/далее","Play / Stop":"Воспроизвести/остановить","Play All / Stop":"Воспроизвести всё/остановить","Play / Overlap":"Воспроизвести с наложением","Loop / Stop":"Повтор/остановить","Loop All / Stop":"Повторить всё/остановить","Loop All / Stop (Reset)":"Повторить всё/остановить (сброс)","Sequential":"По порядку","Random":"Случайно","Order":"Порядок","Files":"Файлы","Add files...":"Добавить файлы...","Choose File...":"Выбрать файл...","Options":"Параметры","Remove":"Удалить","Apps":"Приложения","Playback":"Воспроизведение","Recording":"Запись"
+  }
+}

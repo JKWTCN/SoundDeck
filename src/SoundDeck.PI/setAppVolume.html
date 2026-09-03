@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <title>Set App Volume Settings</title>
         <script src="./js/sdpi-components.js"></script>
+        <script src="./js/localization.js"></script>
     </head>
     <body>
         <sdpi-item label="App">
@@ -31,11 +32,11 @@
 
         <script>
             document.querySelector('sdpi-select[setting="processSelectionType"]').addEventListener('valuechange', ev => {
-                document.querySelector('sdpi-item[label="Name"]').style.display = ev.srcElement.value == 1 ? '' : 'none';
+                document.querySelector('sdpi-textfield[setting="processName"]').closest('sdpi-item').style.display = ev.srcElement.value == 1 ? '' : 'none';
             });
 
             document.querySelector('sdpi-select[setting="volumeAction"]').addEventListener('valuechange', ev => {
-                document.querySelector('sdpi-item[label="Value"]').style.display = ev.srcElement.value > 2 ? '' : 'none';
+                document.querySelector('sdpi-range[setting="volumeValue"]').closest('sdpi-item').style.display = ev.srcElement.value > 2 ? '' : 'none';
             });
         </script>
     </body>

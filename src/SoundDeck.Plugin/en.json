@@ -1,0 +1,62 @@
+{
+  "Description": "A powerful audio-focused plugin for capturing, recording, playing, and sampling audio. Sound Deck also includes actions for controlling audio devices and application audio, such as changing the default device or volume and controlling media playback.",
+  "Name": "Sound Deck",
+  "Category": "Sound Deck",
+  "com.geekyeggo.sounddeck.appmultimediacontrols": {
+    "Name": "App Media Controls",
+    "Tooltip": "Control media playback for a specific application."
+  },
+  "com.geekyeggo.sounddeck.setappaudiodevice": {
+    "Name": "Set App Audio Device",
+    "Tooltip": "Set the default audio device for an application."
+  },
+  "com.geekyeggo.sounddeck.setappvolume": {
+    "Name": "Set App Volume",
+    "Tooltip": "Set the volume of an application."
+  },
+  "com.geekyeggo.sounddeck.setdefaultaudiodevice": {
+    "Name": "Set Default Audio Device",
+    "Tooltip": "Set the default audio device."
+  },
+  "com.geekyeggo.sounddeck.setaudiodevicevolume": {
+    "Name": "Set Audio Device Volume",
+    "Tooltip": "Set the volume of an audio device."
+  },
+  "com.geekyeggo.sounddeck.sampler": {
+    "Name": "Sampler",
+    "Tooltip": "Record and play back samples!"
+  },
+  "com.geekyeggo.sounddeck.clearsample": {
+    "Name": "Clear Sampler",
+    "Tooltip": "Activate sampler clearing."
+  },
+  "com.geekyeggo.sounddeck.clipaudio": {
+    "Name": "Clip Audio",
+    "Tooltip": "Save the last precious seconds of audio so you never miss a funny moment again."
+  },
+  "com.geekyeggo.sounddeck.recordaudio": {
+    "Name": "Record Audio",
+    "Tooltip": "Record audio."
+  },
+  "com.geekyeggo.sounddeck.playaudio": {
+    "Name": "Play Audio",
+    "Tooltip": "Play one or more audio clips in the order you choose."
+  },
+  "com.geekyeggo.sounddeck.stopaudio": {
+    "Name": "Stop Audio",
+    "Tooltip": "Stop all audio being played through Sound Deck."
+  },
+  "Localization": {
+    "App": "App", "Name": "Name", "Action": "Action", "Display": "Display",
+    "Audio Device": "Audio Device", "Capture Device": "Capture Device", "Playback Device": "Playback Device",
+    "Duration": "Duration", "Output Path": "Output Path", "Encoding": "Encoding", "Volume": "Volume", "Normalize": "Normalize",
+    "Loading...": "Loading...", "Default": "Default", "Foreground (Active)": "Foreground (Active)", "By Name": "By Name",
+    "Mute / Unmute": "Mute / Unmute", "Mute": "Mute", "Unmute": "Unmute", "Set": "Set", "Increase By": "Increase By", "Decrease By": "Decrease By", "Value": "Value", "Step": "Step",
+    "Play / Pause": "Play / Pause", "Play": "Play", "Pause": "Pause", "Stop": "Stop", "Skip Previous": "Skip Previous", "Skip Next": "Skip Next", "Artwork (When Available)": "Artwork (When Available)",
+    "5 seconds": "5 seconds", "10 seconds": "10 seconds", "15 seconds": "15 seconds", "20 seconds": "20 seconds", "25 seconds": "25 seconds", "30 seconds": "30 seconds", "45 seconds": "45 seconds", "60 seconds": "60 seconds", "90 seconds": "90 seconds", "120 seconds": "120 seconds",
+    "Encode to MP3": "Encode to MP3", "Normalize Volume": "Normalize Volume", "Communication": "Communication", "Role": "Role", "Process": "Process",
+    "Play / Next": "Play / Next", "Play / Stop": "Play / Stop", "Play All / Stop": "Play All / Stop", "Play / Overlap": "Play / Overlap", "Loop / Stop": "Loop / Stop", "Loop All / Stop": "Loop All / Stop", "Loop All / Stop (Reset)": "Loop All / Stop (Reset)",
+    "Sequential": "Sequential", "Random": "Random", "Order": "Order", "Files": "Files", "Add files...": "Add files...", "Choose File...": "Choose File...", "Options": "Options", "Remove": "Remove",
+    "Apps": "Apps", "Playback": "Playback", "Recording": "Recording"
+  }
+}

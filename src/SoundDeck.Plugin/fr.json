@@ -1,0 +1,23 @@
+{
+  "Description": "Un puissant plugin audio permettant de capturer, enregistrer, lire et échantillonner du son. Sound Deck permet aussi de contrôler les périphériques audio et le son des applications, notamment le périphérique par défaut, le volume et la lecture multimédia.",
+  "Name": "Sound Deck",
+  "Category": "Sound Deck",
+  "com.geekyeggo.sounddeck.appmultimediacontrols": { "Name": "Contrôles multimédias de l’application", "Tooltip": "Contrôler la lecture multimédia d’une application spécifique." },
+  "com.geekyeggo.sounddeck.setappaudiodevice": { "Name": "Définir le périphérique audio de l’application", "Tooltip": "Définir le périphérique audio par défaut d’une application." },
+  "com.geekyeggo.sounddeck.setappvolume": { "Name": "Régler le volume de l’application", "Tooltip": "Régler le volume d’une application." },
+  "com.geekyeggo.sounddeck.setdefaultaudiodevice": { "Name": "Définir le périphérique audio par défaut", "Tooltip": "Définir le périphérique audio par défaut." },
+  "com.geekyeggo.sounddeck.setaudiodevicevolume": { "Name": "Régler le volume du périphérique audio", "Tooltip": "Régler le volume d’un périphérique audio." },
+  "com.geekyeggo.sounddeck.sampler": { "Name": "Échantillonneur", "Tooltip": "Enregistrer et lire des échantillons audio !" },
+  "com.geekyeggo.sounddeck.clearsample": { "Name": "Effacer l’échantillonneur", "Tooltip": "Activer l’effacement de l’échantillonneur." },
+  "com.geekyeggo.sounddeck.clipaudio": { "Name": "Capturer l’audio récent", "Tooltip": "Enregistrer les dernières secondes de son pour ne plus manquer aucun moment amusant." },
+  "com.geekyeggo.sounddeck.recordaudio": { "Name": "Enregistrer l’audio", "Tooltip": "Enregistrer l’audio." },
+  "com.geekyeggo.sounddeck.playaudio": { "Name": "Lire l’audio", "Tooltip": "Lire un ou plusieurs clips audio dans l’ordre de votre choix." },
+  "com.geekyeggo.sounddeck.stopaudio": { "Name": "Arrêter l’audio", "Tooltip": "Arrêter tous les sons lus par Sound Deck." },
+  "Localization": {
+    "App": "Application", "Name": "Nom", "Action": "Action", "Display": "Affichage",
+    "Audio Device": "Périphérique audio", "Capture Device": "Périphérique de capture", "Playback Device": "Périphérique de lecture",
+    "Duration":"Durée","Output Path":"Dossier de sortie","Encoding":"Encodage","Volume":"Volume","Normalize":"Normaliser","Loading...":"Chargement...","Default":"Par défaut","Foreground (Active)":"Premier plan (actif)","By Name":"Par nom","Mute / Unmute":"Activer/désactiver le son","Mute":"Couper le son","Unmute":"Rétablir le son","Set":"Définir","Increase By":"Augmenter de","Decrease By":"Diminuer de","Value":"Valeur","Step":"Pas",
+    "Play / Pause":"Lecture/pause","Play":"Lire","Pause":"Pause","Stop":"Arrêter","Skip Previous":"Piste précédente","Skip Next":"Piste suivante","Artwork (When Available)":"Pochette (si disponible)","5 seconds":"5 secondes","10 seconds":"10 secondes","15 seconds":"15 secondes","20 seconds":"20 secondes","25 seconds":"25 secondes","30 seconds":"30 secondes","45 seconds":"45 secondes","60 seconds":"60 secondes","90 seconds":"90 secondes","120 seconds":"120 secondes",
+    "Encode to MP3":"Encoder en MP3","Normalize Volume":"Normaliser le volume","Communication":"Communication","Role":"Rôle","Process":"Processus","Play / Next":"Lire/suivant","Play / Stop":"Lire/arrêter","Play All / Stop":"Tout lire/arrêter","Play / Overlap":"Lire/superposer","Loop / Stop":"Boucle/arrêter","Loop All / Stop":"Tout boucler/arrêter","Loop All / Stop (Reset)":"Tout boucler/arrêter (réinitialiser)","Sequential":"Séquentiel","Random":"Aléatoire","Order":"Ordre","Files":"Fichiers","Add files...":"Ajouter des fichiers...","Choose File...":"Choisir un fichier...","Options":"Options","Remove":"Supprimer","Apps":"Applications","Playback":"Lecture","Recording":"Enregistrement"
+  }
+}

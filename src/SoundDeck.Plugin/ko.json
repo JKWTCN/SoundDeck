@@ -1,0 +1,26 @@
+{
+  "Description": "오디오 캡처, 녹음, 재생 및 샘플링을 위한 강력한 오디오 플러그인입니다. Sound Deck으로 기본 오디오 장치와 볼륨을 변경하고 앱의 미디어 재생도 제어할 수 있습니다.",
+  "Name": "Sound Deck",
+  "Category": "Sound Deck",
+  "com.geekyeggo.sounddeck.appmultimediacontrols": { "Name": "앱 미디어 제어", "Tooltip": "특정 앱의 미디어 재생을 제어합니다." },
+  "com.geekyeggo.sounddeck.setappaudiodevice": { "Name": "앱 오디오 장치 설정", "Tooltip": "앱의 기본 오디오 장치를 설정합니다." },
+  "com.geekyeggo.sounddeck.setappvolume": { "Name": "앱 볼륨 설정", "Tooltip": "앱의 볼륨을 설정합니다." },
+  "com.geekyeggo.sounddeck.setdefaultaudiodevice": { "Name": "기본 오디오 장치 설정", "Tooltip": "기본 오디오 장치를 설정합니다." },
+  "com.geekyeggo.sounddeck.setaudiodevicevolume": { "Name": "오디오 장치 볼륨 설정", "Tooltip": "오디오 장치의 볼륨을 설정합니다." },
+  "com.geekyeggo.sounddeck.sampler": { "Name": "샘플러", "Tooltip": "오디오 샘플을 녹음하고 재생합니다!" },
+  "com.geekyeggo.sounddeck.clearsample": { "Name": "샘플러 지우기", "Tooltip": "샘플러 지우기를 활성화합니다." },
+  "com.geekyeggo.sounddeck.clipaudio": { "Name": "최근 오디오 캡처", "Tooltip": "방금 전의 소중한 오디오를 저장하여 재미있는 순간을 놓치지 마세요." },
+  "com.geekyeggo.sounddeck.recordaudio": { "Name": "오디오 녹음", "Tooltip": "오디오를 녹음합니다." },
+  "com.geekyeggo.sounddeck.playaudio": { "Name": "오디오 재생", "Tooltip": "하나 이상의 오디오 클립을 원하는 순서로 재생합니다." },
+  "com.geekyeggo.sounddeck.stopaudio": { "Name": "오디오 중지", "Tooltip": "Sound Deck에서 재생 중인 모든 오디오를 중지합니다." },
+  "Localization": {
+    "App": "앱", "Name": "이름", "Action": "동작", "Display": "표시",
+    "Audio Device": "오디오 장치", "Capture Device": "캡처 장치", "Playback Device": "재생 장치",
+    "Duration": "길이", "Output Path": "출력 경로", "Encoding": "인코딩", "Volume": "볼륨", "Normalize": "정규화",
+    "Loading...":"불러오는 중...","Default":"기본값","Foreground (Active)":"포그라운드(활성)","By Name":"이름으로 지정","Mute / Unmute":"음소거 전환","Mute":"음소거","Unmute":"음소거 해제","Set":"설정","Increase By":"증가","Decrease By":"감소","Value":"값","Step":"단계",
+    "Play / Pause":"재생/일시 정지","Play":"재생","Pause":"일시 정지","Stop":"중지","Skip Previous":"이전 트랙","Skip Next":"다음 트랙","Artwork (When Available)":"아트워크(사용 가능한 경우)",
+    "5 seconds":"5초","10 seconds":"10초","15 seconds":"15초","20 seconds":"20초","25 seconds":"25초","30 seconds":"30초","45 seconds":"45초","60 seconds":"60초","90 seconds":"90초","120 seconds":"120초",
+    "Encode to MP3":"MP3로 인코딩","Normalize Volume":"볼륨 정규화","Communication":"통신","Role":"역할","Process":"프로세스","Play / Next":"재생/다음","Play / Stop":"재생/중지","Play All / Stop":"모두 재생/중지","Play / Overlap":"재생/겹쳐 재생","Loop / Stop":"반복/중지","Loop All / Stop":"모두 반복/중지","Loop All / Stop (Reset)":"모두 반복/중지(초기화)",
+    "Sequential":"순차","Random":"무작위","Order":"순서","Files":"파일","Add files...":"파일 추가...","Choose File...":"파일 선택...","Options":"옵션","Remove":"제거","Apps":"앱","Playback":"재생","Recording":"녹음"
+  }
+}

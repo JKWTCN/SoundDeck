@@ -1,0 +1,59 @@
+{
+  "Description": "一款強大的音訊外掛，可用於擷取、錄製、播放和取樣音訊。Sound Deck 亦提供控制音訊裝置和應用程式音訊的操作，例如設定預設音訊裝置、調整音量或控制應用程式的媒體播放。",
+  "Name": "Sound Deck",
+  "Category": "Sound Deck",
+  "com.geekyeggo.sounddeck.appmultimediacontrols": {
+    "Name": "應用程式媒體控制",
+    "Tooltip": "控制指定應用程式的媒體播放。"
+  },
+  "com.geekyeggo.sounddeck.setappaudiodevice": {
+    "Name": "設定應用程式音訊裝置",
+    "Tooltip": "設定應用程式的預設音訊裝置。"
+  },
+  "com.geekyeggo.sounddeck.setappvolume": {
+    "Name": "設定應用程式音量",
+    "Tooltip": "設定應用程式的音量。"
+  },
+  "com.geekyeggo.sounddeck.setdefaultaudiodevice": {
+    "Name": "設定預設音訊裝置",
+    "Tooltip": "設定預設音訊裝置。"
+  },
+  "com.geekyeggo.sounddeck.setaudiodevicevolume": {
+    "Name": "設定音訊裝置音量",
+    "Tooltip": "設定音訊裝置的音量。"
+  },
+  "com.geekyeggo.sounddeck.sampler": {
+    "Name": "取樣器",
+    "Tooltip": "錄製並播放音訊樣本！"
+  },
+  "com.geekyeggo.sounddeck.clearsample": {
+    "Name": "清除取樣器",
+    "Tooltip": "啟用取樣器清除功能。"
+  },
+  "com.geekyeggo.sounddeck.clipaudio": {
+    "Name": "擷取音訊片段",
+    "Tooltip": "儲存剛剛過去的珍貴音訊片段，不再錯過任何精彩時刻。"
+  },
+  "com.geekyeggo.sounddeck.recordaudio": {
+    "Name": "錄製音訊",
+    "Tooltip": "錄製音訊。"
+  },
+  "com.geekyeggo.sounddeck.playaudio": {
+    "Name": "播放音訊",
+    "Tooltip": "按照所選次序播放一個或多個音訊片段。"
+  },
+  "com.geekyeggo.sounddeck.stopaudio": {
+    "Name": "停止音訊",
+    "Tooltip": "停止 Sound Deck 正在播放的所有音訊。"
+  },
+  "Localization": {
+    "App": "應用程式", "Name": "名稱", "Action": "操作", "Display": "顯示",
+    "Audio Device": "音訊裝置", "Capture Device": "擷取裝置", "Playback Device": "播放裝置",
+    "Duration": "時長", "Output Path": "輸出路徑", "Encoding": "編碼", "Volume": "音量", "Normalize": "標準化",
+    "Loading...":"正在載入...","Default":"預設","Foreground (Active)":"前景（使用中）","By Name":"按名稱","Mute / Unmute":"靜音/取消靜音","Mute":"靜音","Unmute":"取消靜音","Set":"設定","Increase By":"增加","Decrease By":"減少","Value":"數值","Step":"步長",
+    "Play / Pause":"播放/暫停","Play":"播放","Pause":"暫停","Stop":"停止","Skip Previous":"上一首","Skip Next":"下一首","Artwork (When Available)":"封面（可用時）",
+    "5 seconds":"5 秒","10 seconds":"10 秒","15 seconds":"15 秒","20 seconds":"20 秒","25 seconds":"25 秒","30 seconds":"30 秒","45 seconds":"45 秒","60 seconds":"60 秒","90 seconds":"90 秒","120 seconds":"120 秒",
+    "Encode to MP3":"編碼為 MP3","Normalize Volume":"音量標準化","Communication":"通訊","Role":"角色","Process":"程序","Play / Next":"播放/下一段","Play / Stop":"播放/停止","Play All / Stop":"全部播放/停止","Play / Overlap":"播放/重疊","Loop / Stop":"循環/停止","Loop All / Stop":"全部循環/停止","Loop All / Stop (Reset)":"全部循環/停止（重設）",
+    "Sequential":"順序","Random":"隨機","Order":"次序","Files":"檔案","Add files...":"加入檔案...","Choose File...":"選擇檔案...","Options":"選項","Remove":"移除","Apps":"應用程式","Playback":"播放","Recording":"錄製"
+  }
+}

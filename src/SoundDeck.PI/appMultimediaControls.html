@@ -7,11 +7,12 @@
             function connectElgatoStreamDeckSocket(inPort, inPropertyInspectorUUID, inRegisterEvent, inInfo, inActionInfo) {
                 const { payload: { controller } } = JSON.parse(inActionInfo);
                 if (controller == 'Keypad') {
-                    document.querySelector('sdpi-item[label="Action"]').style.display = '';
+                    document.querySelector('sdpi-select[setting="action"]').closest('sdpi-item').style.display = '';
                 }
             }
         </script>
         <script src="./js/sdpi-components.js"></script>
+        <script src="./js/localization.js"></script>
     </head>
     <body>
         <sdpi-item label="App">
@@ -42,7 +43,7 @@
 
         <script>
             document.querySelector('sdpi-select[setting="processSelectionType"]').addEventListener('valuechange', ev => {
-                document.querySelector('sdpi-item[label="Name"]').style.display = ev.srcElement.value == 1 ? '' : 'none';
+                document.querySelector('sdpi-textfield[setting="processName"]').closest('sdpi-item').style.display = ev.srcElement.value == 1 ? '' : 'none';
             });
         </script>
     </body>

@@ -1,0 +1,23 @@
+{
+  "Description": "Ein leistungsstarkes Audio-Plugin zum Erfassen, Aufnehmen, Wiedergeben und Samplen von Audio. Sound Deck kann außerdem Audiogeräte und App-Audio steuern, etwa das Standardgerät, die Lautstärke und die Medienwiedergabe.",
+  "Name": "Sound Deck",
+  "Category": "Sound Deck",
+  "com.geekyeggo.sounddeck.appmultimediacontrols": { "Name": "App-Mediensteuerung", "Tooltip": "Steuert die Medienwiedergabe einer bestimmten App." },
+  "com.geekyeggo.sounddeck.setappaudiodevice": { "Name": "App-Audiogerät festlegen", "Tooltip": "Legt das Standard-Audiogerät einer App fest." },
+  "com.geekyeggo.sounddeck.setappvolume": { "Name": "App-Lautstärke festlegen", "Tooltip": "Legt die Lautstärke einer App fest." },
+  "com.geekyeggo.sounddeck.setdefaultaudiodevice": { "Name": "Standard-Audiogerät festlegen", "Tooltip": "Legt das Standard-Audiogerät fest." },
+  "com.geekyeggo.sounddeck.setaudiodevicevolume": { "Name": "Audiogerät-Lautstärke festlegen", "Tooltip": "Legt die Lautstärke eines Audiogeräts fest." },
+  "com.geekyeggo.sounddeck.sampler": { "Name": "Sampler", "Tooltip": "Audio-Samples aufnehmen und wiedergeben!" },
+  "com.geekyeggo.sounddeck.clearsample": { "Name": "Sampler leeren", "Tooltip": "Aktiviert das Leeren des Samplers." },
+  "com.geekyeggo.sounddeck.clipaudio": { "Name": "Letzte Audiosekunden speichern", "Tooltip": "Speichert die letzten kostbaren Audiosekunden, damit kein lustiger Moment mehr verloren geht." },
+  "com.geekyeggo.sounddeck.recordaudio": { "Name": "Audio aufnehmen", "Tooltip": "Audio aufnehmen." },
+  "com.geekyeggo.sounddeck.playaudio": { "Name": "Audio wiedergeben", "Tooltip": "Gibt einen oder mehrere Audioclips in der gewünschten Reihenfolge wieder." },
+  "com.geekyeggo.sounddeck.stopaudio": { "Name": "Audio stoppen", "Tooltip": "Stoppt alle über Sound Deck wiedergegebenen Audiodaten." },
+  "Localization": {
+    "App": "App", "Name": "Name", "Action": "Aktion", "Display": "Anzeige",
+    "Audio Device": "Audiogerät", "Capture Device": "Aufnahmegerät", "Playback Device": "Wiedergabegerät",
+    "Duration":"Dauer","Output Path":"Ausgabepfad","Encoding":"Kodierung","Volume":"Lautstärke","Normalize":"Normalisieren","Loading...":"Wird geladen...","Default":"Standard","Foreground (Active)":"Vordergrund (aktiv)","By Name":"Nach Name","Mute / Unmute":"Stumm ein/aus","Mute":"Stummschalten","Unmute":"Stummschaltung aufheben","Set":"Festlegen","Increase By":"Erhöhen um","Decrease By":"Verringern um","Value":"Wert","Step":"Schritt",
+    "Play / Pause":"Wiedergabe/Pause","Play":"Wiedergeben","Pause":"Pause","Stop":"Stoppen","Skip Previous":"Vorheriger Titel","Skip Next":"Nächster Titel","Artwork (When Available)":"Cover (falls verfügbar)","5 seconds":"5 Sekunden","10 seconds":"10 Sekunden","15 seconds":"15 Sekunden","20 seconds":"20 Sekunden","25 seconds":"25 Sekunden","30 seconds":"30 Sekunden","45 seconds":"45 Sekunden","60 seconds":"60 Sekunden","90 seconds":"90 Sekunden","120 seconds":"120 Sekunden",
+    "Encode to MP3":"Als MP3 kodieren","Normalize Volume":"Lautstärke normalisieren","Communication":"Kommunikation","Role":"Rolle","Process":"Prozess","Play / Next":"Wiedergabe/Weiter","Play / Stop":"Wiedergabe/Stopp","Play All / Stop":"Alle wiedergeben/Stopp","Play / Overlap":"Wiedergabe/Überlappen","Loop / Stop":"Schleife/Stopp","Loop All / Stop":"Alle wiederholen/Stopp","Loop All / Stop (Reset)":"Alle wiederholen/Stopp (Zurücksetzen)","Sequential":"Nacheinander","Random":"Zufällig","Order":"Reihenfolge","Files":"Dateien","Add files...":"Dateien hinzufügen...","Choose File...":"Datei auswählen...","Options":"Optionen","Remove":"Entfernen","Apps":"Apps","Playback":"Wiedergabe","Recording":"Aufnahme"
+  }
+}
